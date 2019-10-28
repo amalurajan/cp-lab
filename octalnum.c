@@ -10,16 +10,16 @@
 #include<stdio.h>
 void main()
 {
-int num,ocnum=1,foct=0,temp;
+int no,ocnum=1,foct=0,temp;
 printf("\nEnter an integer = ");
-scanf("%d",&num);
-while(num>=8) //loop for converting decimal to octal
+scanf("%d",&no);
+while(no>=8) //loop for converting decimal to octal
 {
-temp=num%8;
-num=num/8;
+temp=no%8;
+no=no/8;
 ocnum=(ocnum*10)+temp;
 }
-ocnum=(ocnum*10)+num; //number is in reverse
+ocnum=(ocnum*10)+no; //number is in reverse
 while(ocnum!=1) //loop for reversing the octal result
 {
 temp=ocnum%10;

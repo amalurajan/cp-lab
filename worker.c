@@ -4,15 +4,15 @@
 #include<stdio.h>
 void main()
 {
-float time;
+float t;
 printf("enter time taken to complete work:");
-scanf("%f",&time);
-if(time>2&&time<3)
+scanf("%f",&t);
+if(t>2&&t<3)
 	printf("worker is highly efficient");
-if(time>3&&time<4)
+if(t>3&&t<4)
 	printf("worker needs to improve speed");
-if(time>4&&time<5)
+if(t>4&&t<5)
 	printf("worker must be given training to improve speed");
-if(time>5)
+if(t>5)
 	printf("worker needs to be terminated");
 }

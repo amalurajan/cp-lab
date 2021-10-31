@@ -18,6 +18,9 @@ for(num=100;num<=500;num++)
 	temp=num;
 	sum=0;
 	while(temp!=0)
+		
+		
+		
 	{
 		rem=temp%10;
 		temp=temp/10;

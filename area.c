@@ -4,7 +4,7 @@
 void main()
 {
 int len,breadth,area,perimeter;
-printf("enter length:");
+printf("enter   length:");
 scanf("%d",&len);
 printf("enter breadth:");
 scanf("%d",&breadth);

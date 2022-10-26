@@ -11,7 +11,7 @@ scanf("%d",&breadth);
 
 area=len*breadth;
 perimeter=2*(len+breadth);
-printf("area is %d,\n",area);
+printf("area  %d,\n",area);
 printf("perimeter is %d,\n",perimeter);
 
 if(area>perimeter)

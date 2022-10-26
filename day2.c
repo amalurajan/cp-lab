@@ -12,15 +12,15 @@
 #include<stdio.h>
 void main()
 {
-int t=12;
-printf("%d Midnight\n",t);
-for(t=1;t<12;t++)
+int time=12;
+printf("%d Midnight\n",time);
+for(time=1;time<12;time++)
 {
-	printf("%d AM\n",t);
+	printf("%d AM\n",time);
 }
-printf("%d Noon\n",t);
-for(t=1;t<12;t++)
+printf("%d Noon\n",time);
+for(time=1;time<12;time++)
 {
-	printf("%d PM\n",t);
+	printf("%d PM\n",time);
 }
 }

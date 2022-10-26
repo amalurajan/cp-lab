@@ -5,7 +5,7 @@
 #include<math.h>
 void main()
 {
-int num,rem,sum=0,armnum;
+int num,rem,sum=0,armnumber;
 printf("enter number to reversed:");
 scanf("%d",&num);
 armnum=num;
@@ -16,7 +16,7 @@ while(num>0)
 	sum+=(rem*rem*rem);
 }
 if(armnum==sum)
-	printf("the given number %d is armstrong number",armnum);
+	printf("the given number %d is armstrong number",armnumber);
 else
-	printf("the given number %d is not an armstrong number",armnum);
+	printf("the given number %d is not an armstrong number",armnumber);
 }

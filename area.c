@@ -3,20 +3,20 @@
 #include<stdio.h>
 void main()
 {
-int len,breadth,area,perimeter;
+int l,breadth,area,perimeter;
 printf("enter   length:");
-scanf("%d",&len);
+scanf("%d",&l);
 printf("enter breadth:");
 scanf("%d",&breadth);
 
 area=len*breadth;
-perimeter=2*(len+breadth);
+perimeter=2*(l+breadth);
 printf("area  %d,\n",area);
 printf("perimeter is %d,\n",perimeter);
 
 if(area>perimeter)
-	printf("rectangle of length %d and breadth %d has area greater than its perimeter",len,breadth);
+	printf("rectangle of length %d and breadth %d has area greater than its perimeter",l,breadth);
 else
-	printf("rectangle of length %d and breadth %d has area less than its perimeter",len,breadth);
+	printf("rectangle of length %d and breadth %d has area less than its perimeter",l,breadth);
 }
 

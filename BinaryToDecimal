@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <math.h>
-int binaryToDecimal(long binarynum)
+int binaryToDecimal(long binarynumber)
 {
     int decimalnum = 0, temp = 0, remainder;
-    while (binarynum!=0)
+    while (binarynumber!=0)
     {
-        remainder = binarynum % 10;
-        binarynum = binarynum / 10;
+        remainder = binarynumber % 10;
+        binarynumber = binarynumber / 10;
         decimalnum = decimalnum + remainder*pow(2,temp);
         temp++;
     }
@@ -15,10 +15,10 @@ int binaryToDecimal(long binarynum)
 
 int main()
 {
-    long binarynum;
+    long binarynumber;
     printf("Enter a binary number: ");
-    scanf("%ld", &binarynum);
+    scanf("%ld", &binarynumber);
 
-    printf("Equivalent decimal number is: %d", binaryToDecimal(binarynum));
+    printf("Equivalent decimal number is: %d", binaryToDecimal(binarynumber));
     return 0;
 }

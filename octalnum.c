@@ -10,14 +10,14 @@
 #include<stdio.h>
 void main()
 {
-int no,ocnum=1,foct=0,temp;
+int no,octalnum=1,foct=0,temp;
 printf("\nEnter an integer = ");
 scanf("%d",&no);
 while(no>=8) //loop for converting decimal to octal
 {
 temp=no%8;
 no=no/8;
-ocnum=(ocnum*10)+temp;
+octalnum=(octalnum*10)+temp;
 }
 ocnum=(ocnum*10)+no; //number is in reverse
 while(ocnum!=1) //loop for reversing the octal result

@@ -11,13 +11,13 @@
 #include<stdio.h>
 void main()
 {
-int limit,x,y;
+int limit,x,column;
 printf("enter limit of half pyramid:");
 scanf("%d",&limit);
 for(x=1;x<=limit;x++)
 {
-	for(y=1;y<=i;y++)
-		printf("%d",y);
+	for(column=1;column<=i;column++)
+		printf("%d",column);
 	printf("\n");
 }
 }

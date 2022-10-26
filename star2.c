@@ -14,7 +14,7 @@ void main()
 {
 int limit,i,j;
 
-printf("enter limit of half the pyramid:");
+printf("enter limit of half pyramid:");
 scanf("%d",&limit);
 for(i=limit;i>0;i--)
 {
